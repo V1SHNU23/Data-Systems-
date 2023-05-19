@@ -1,0 +1,101 @@
+ Number,Capacity,Availability,Equipment,RoomType
+1,2,Yes,Projector,Large Collaborative Classroom
+2,1,No,Screen,Large Collaborative Classroom
+3,7,No,Projector,Large Collaborative Classroom
+4,6,No,Screen,Lecture Hall
+5,4,No,Projector,Computer Lab
+6,1,No,Screen,Computer Lab
+7,7,Yes,Screen,Large Collaborative Classroom
+8,3,Yes,Projector,Large Collaborative Classroom
+9,2,Yes,Projector,Large Collaborative Classroom
+10,2,Yes,Projector,Lecture Hall
+11,2,No,Projector,Computer Lab
+12,8,Yes,Projector,Large Collaborative Classroom
+13,1,Yes,Whiteboard,Lecture Hall
+14,8,No,Projector,Computer Lab
+15,3,Yes,Projector,Computer Lab
+16,9,Yes,,Large Collaborative Classroom
+17,10,Yes,Screen,Computer Lab
+18,9,Yes,Projector,Computer Lab
+19,7,Yes,Whiteboard,Computer Lab
+20,7,No,Projector,Computer Lab
+21,8,Yes,Screen,Large Collaborative Classroom
+22,3,Yes,Projector,Lecture Hall
+23,10,No,Projector,Computer Lab
+24,7,Yes,Projector,Large Collaborative Classroom
+25,4,Yes,Whiteboard,Lecture Hall
+26,9,Yes,Whiteboard,Large Collaborative Classroom
+27,7,Yes,Screen,Large Collaborative Classroom
+28,8,Yes,Projector,Lecture Hall
+29,10,Yes,Screen,Large Collaborative Classroom
+30,7,Yes,Projector,Large Collaborative Classroom
+31,5,Yes,Screen,Computer Lab
+32,8,Yes,Screen,Large Collaborative Classroom
+33,1,No,Projector,Lecture Hall
+34,9,No,Projector,Computer Lab
+35,7,No,Screen,Computer Lab
+36,10,No,Screen,Lecture Hall
+37,1,No,Projector,Lecture Hall
+38,9,Yes,Whiteboard,Large Collaborative Classroom
+39,2,No,Projector,Large Collaborative Classroom
+40,5,No,Projector,Large Collaborative Classroom
+41,6,No,Projector,Computer Lab
+42,9,No,Whiteboard,Computer Lab
+43,5,Yes,Projector,Computer Lab
+44,5,No,Screen,Computer Lab
+45,1,No,Projector,Large Collaborative Classroom
+46,5,No,Screen,Computer Lab
+47,9,No,Projector,Computer Lab
+48,8,No,,Large Collaborative Classroom
+49,4,No,Screen,Large Collaborative Classroom
+50,8,Yes,,Computer Lab
+51,7,Yes,Projector,Lecture Hall
+52,8,No,Whiteboard,Lecture Hall
+53,2,No,Projector,Large Collaborative Classroom
+54,10,No,Projector,Large Collaborative Classroom
+55,2,Yes,Projector,Large Collaborative Classroom
+56,7,Yes,Projector,Computer Lab
+57,3,No,Screen,Large Collaborative Classroom
+58,8,Yes,Projector,Large Collaborative Classroom
+59,7,Yes,,Computer Lab
+60,1,No,Projector,Large Collaborative Classroom
+61,4,No,Screen,Lecture Hall
+62,8,No,Whiteboard,Computer Lab
+63,4,Yes,Projector,Lecture Hall
+64,7,Yes,Screen,Lecture Hall
+65,5,No,Projector,Large Collaborative Classroom
+66,8,Yes,Screen,Computer Lab
+67,9,No,Projector,Computer Lab
+68,9,Yes,Screen,Lecture Hall
+69,1,No,Projector,Lecture Hall
+70,3,No,Screen,Computer Lab
+71,1,Yes,Whiteboard,Lecture Hall
+72,5,Yes,Projector,Large Collaborative Classroom
+73,8,No,Screen,Computer Lab
+74,9,No,Screen,Lecture Hall
+75,2,Yes,Projector,Lecture Hall
+76,5,Yes,Whiteboard,Large Collaborative Classroom
+77,10,No,Projector,Computer Lab
+78,6,Yes,Projector,Computer Lab
+79,10,No,Screen,Computer Lab
+80,6,No,Screen,Large Collaborative Classroom
+81,7,No,,Computer Lab
+82,10,No,Whiteboard,Large Collaborative Classroom
+83,7,No,Whiteboard,Lecture Hall
+84,6,Yes,Screen,Computer Lab
+85,8,Yes,Whiteboard,Lecture Hall
+86,5,Yes,Projector,Lecture Hall
+87,10,No,Screen,Large Collaborative Classroom
+88,10,Yes,Whiteboard,Lecture Hall
+89,2,No,Projector,Large Collaborative Classroom
+90,6,Yes,Whiteboard,Computer Lab
+91,3,Yes,Projector,Lecture Hall
+92,7,Yes,Screen,Lecture Hall
+93,3,No,Projector,Computer Lab
+94,1,Yes,Whiteboard,Lecture Hall
+95,4,Yes,Screen,Large Collaborative Classroom
+96,10,Yes,Whiteboard,Computer Lab
+97,6,Yes,Projector,Large Collaborative Classroom
+98,6,No,Screen,Lecture Hall
+99,6,Yes,Screen,Lecture Hall
+100,7,Yes,Whiteboard,Computer Lab
