@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clear Room</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='home.css') }}">
+
+</head>
+<body>
+    <nav>
+        <div id="logo">
+            <img src="{{ url_for('static', filename='logo/Clear Room.png') }}" alt="Logo" class="logo">
+        </div>
+        <div id="links">
+            <ul>
+              <li><a href="{{ url_for('home')}}">Home</a></li>
+              <li><a href="{{ url_for('bookings')}}">Bookings</a></li>
+              <li><a href="{{ url_for('feedback')}}">Feedback</a></li>
+              <li><a href="{{ url_for('loginpage')}}">Log Out</a></li>
+
+                
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="box">
+          <img src="{{ url_for('static', filename='logo/class1.jpg') }}" alt="Collab Class">
+          <p>This learning environment fosters teamwork and group learning through flexible furniture, like movable tables and chairs, and collaborative technology.
+
+
+
+
+          </p>
+        <div class="sqr">
+            <h1>Features:</h1>
+            <div class="content-wrapper">
+                <ul>
+                    <li>Large collaborative classroom</li>
+                    <li>Access to multiple smart boards</li>
+                    <li>4x charging ports per table</li>
+                </ul>
+                <button class="book-button">Book Now</button>
+            </div>
+        </div>
+        </div>
+        <div class="box">
+            <img src="{{ url_for('static', filename='logo/class2.jpg') }}" alt="Lecture hall">
+            <p>Traditional learning space designed for 
+              a more formal and structured teaching 
+              environment. beneficial for subjects that 
+              require a more structured approach to 
+              teaching. Ideal for larger classes</p>
+            <div class="sqr">
+              <h1>Features:</h1>
+              <div class="content-wrapper">
+                <ul>
+                  <li>Large conventional space</li>
+                  <li>Built-in laptop table</li>
+                  <li>Projector and sound system</li>
+                </ul>
+                <button class="book-button">Book Now</button>
+              </div>
+            </div>
+          </div>
+          
+          <div class="box">
+            <img src="{{ url_for('static', filename='logo/class3.jpg') }}" alt="Computer lab">
+            <p>Offers students to use computers 
+              and other digital resources to enhance 
+              their learning experience. designed for
+              who require the use of specialized 
+              software or online resources.</p>
+            <div class="sqr">
+              <h1>Features:</h1>
+              <div class="content-wrapper">
+                <ul>
+                  <li>Access to high speed ethernet</li>
+                  <li>Access to specialized software</li>
+                  <li>Pre-installed programs</li>
+                </ul>
+                <button class="book-button">Book Now</button>
+              </div>
+            </div>
+          </div>
+          
+ 
+<body>

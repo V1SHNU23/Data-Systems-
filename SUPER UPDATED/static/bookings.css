@@ -1,0 +1,124 @@
+body{
+  background-color: #ffffff;
+  background-image: linear-gradient(90deg, #045de9 20%, #09c6f9 74%);
+
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:transparent;
+    color: #ac3838;
+    padding: 10px;
+  }
+  #logo {
+    margin-right: 20px;
+  }
+  
+  .logo {
+    max-height: auto;
+    max-width: 200px; 
+  }
+  
+  #links {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  #links ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #links li {
+    margin-right:50px;
+  }
+  
+  #links a {
+    color: #ffffff;
+    text-decoration: none;
+    position: relative;
+  }
+  
+  #links a:hover {
+    text-decoration: none;
+    transform: scale(2);
+  }
+  
+  #links a::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: #ffffff;
+    transition: 0.25s ease-in-out;
+    transform-origin: center;
+  }
+  
+  #links a:hover::after {
+    width: 100%;
+  }
+  #booking-form {
+      max-width: 600px;
+      margin: 50px auto;
+      padding: 30px;
+      background-color: transparent;
+      border-radius: 10px;
+      border:2px solid #ffffff;
+      color: #ffffff;
+  }
+  
+  #booking-form h1 {
+      text-align: center;
+      font-size: 2em;
+      margin-bottom: 30px;
+  }
+  
+  #booking-form form {
+      display: flex;
+      flex-direction: column;
+  }
+  
+  #booking-form label {
+      font-size: 1.2em;
+      margin-bottom: 10px;
+  }
+  
+  #booking-form input[type=text],
+  #booking-form input[type=email],
+  #booking-form input[type=date],
+  #booking-form input[type=time],
+  #booking-form input[type=number],
+  #booking-form textarea {
+      padding: 10px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      border: none;
+      font-size: 1.1em;
+      background-color: transparent;
+      border: 2px solid white;
+
+  }
+  
+  #booking-form button {
+      margin-top: 20px;
+      width:150px;
+      height: 40px;
+      border-radius: 40px;
+      border: none;
+      background-image: linear-gradient(45deg, #045de9 10%, #09c6f9 74%);
+      color:none;
+      text-align: center;
+      transform:translate(225px, 0px);
+      color: #ffffff;
+      font-size: 20px;
+  }
+  #booking-form button:hover{
+      background-image: linear-gradient(45deg, #09c6f9, #045de9);
+      color: #fff;
+     
+    } 
