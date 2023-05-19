@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Booking Confirmation</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='bookings.css') }}">
+    </head>
+    <body>
+        <nav>
+            <div id="logo">
+                <img class="logo" src="{{ url_for('static', filename='logo/Clear Room.png') }}" alt="Logo">
+            </div>
+            <div id="links">
+                <ul>
+                    <li><a href="{{ url_for('home')}}">Home</a></li>
+                    <li><a href="{{ url_for('bookings')}}">Bookings</a></li>
+                    <li><a href="{{ url_for('feedback')}}">Feedback</a></li>
+                    <li><a href="{{ url_for('loginpage')}}">Log Out</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div id="booking-confirmation">
+            <h1>Booking Confirmation</h1>
+            <p>Your booking has been confirmed. Thank you!</p>
+        </div>
+    </body>
+</html>

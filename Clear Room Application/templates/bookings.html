@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Feedback Form</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='bookings.css') }}">
+    </head>
+    <body>
+        <nav>
+            <div id="logo">
+                <img class="logo" src="{{ url_for('static', filename='logo/Clear Room.png') }}" alt="Logo">
+            </div>
+            <div id="links">
+                <ul>
+                    <li><a href="{{ url_for('home')}}">Home</a></li>
+                    <li><a href="{{ url_for('bookings')}}">Bookings</a></li>
+                    <li><a href="{{ url_for('feedback')}}">Feedback</a></li>
+                    <li><a href="{{ url_for('loginpage')}}">Log Out</a></li>
+    
+                   
+
+                </ul>
+            </div>
+        </nav>
+        <div id="booking-form">
+            <h1>Book a Room</h1>
+            <form action="/bookings" method="POST">
+                <label for="room-type">Room Type:</label>
+                <select id="room-type" name="room-type" title="Select a room type" required>
+                    <option value="" selected>Select a room type</option>
+                    <option value="collaboration-room">Large Collaborative Classroom</option>
+                    <option value="lecture-hall">Lecture Hall</option>
+                    <option value="computer-lab">Computer Lab</option>
+                </select>
+                <br>
+                <label for="room-number">Room Number:</label>
+                <input type="number" id="room-number" name="room-number" required>
+                <br>
+                <label for="check-in-date">Check-in Date:</label>
+                <input type="date" id="check-in-date" name="check-in-date" required>
+                <br>
+                <label for="check-in-date">Check-in Time:</label>
+                <input type="time" id="check-in-time" name="check-in-time" required>
+                <br>
+                <br>
+                <label for="check-out-date">Check-out Time:</label>
+                <input type="time" id="check-out-time" name="check-out-time" required>
+                <br>
+                <label for="num-guests">Number of People:</label>
+                <input type="number" id="num-guests" name="num-guests" min="1" required>
+                <br>
+                {% if error_message %}
+                <p class="error">{{ error_message }}</p>
+                {% endif %}
+                <button>Book</button>
+            </form>
+        </div>
+    </body>
+</html>
+
